@@ -1,0 +1,16 @@
+header{ background-color: palegoldenrod;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+header nav {
+  
+align-self: flex-end;
+}
+header nav ul {
+    display: inline-block
+}
+body{
+    background-color: lightseagreen;
+}

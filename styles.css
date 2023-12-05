@@ -1,16 +1,98 @@
-header{ background-color: palegoldenrod;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+a{
+  color: white;
+   text-decoration: none;
 }
 
-header nav {
-  
-align-self: flex-end;
+p{
+  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Tangerine', cursive;
+  font-size: 16px;
 }
+header p{
+  display: flex;
+}
+
+header {
+padding: 10px;  
+background-color: navy;
+color: darkgoldenrod;
+display: flex;
+justify-content: space-between;
+
+}
+.Family{
+
+}
+h1 {
+  font-family: 'Tangerine', serif;
+  font-size: 40px;
+}
+p {
+  font-family: 'Tangerine', serif;
+  font-size: 35px;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 header nav ul {
-    display: inline-block
+    display: flex;
+    list-style-type: none;
+
 }
+
+header nav ul li {
+  margin-left: 30px;
+  padding: 15px;
+}
+
 body{
     background-color: lightseagreen;
+    padding: 20px;
+    line-height: 2.0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 650px;
+  margin: 0 auto;
+  gap: 15px;
+}
+
+.Projects-Container,.Quackin-Farms {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Horiseon {
+  background-image: url("images/Horiseon.png");
+  width: 80%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.Ducks {
+  background-image: url("images/1_Waddling-duck.webp"); 
+  width: 50%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  
+}
+
+.Skunks {
+  background-image: url("images/skunk.jpg");
+  width: 50%;
+  height:400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }

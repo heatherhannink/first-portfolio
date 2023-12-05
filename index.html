@@ -1,51 +1,86 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css" />
     <title>Heather's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+        body {
+            font-family: 'Tangerine', serif;
+            font-size: 36px;
+        }
+    </style>
 </head>
+
 <body>
-    <header class="Name">
-        <h1>Heather Hannink</h1>
+    <header>
         <div>
+            <h1>Heather Hannink</h1>
+            <img class="profilepicture" src="images/proffesionalheadshot.jpg" width="150px" height="auto">
+            <p>
+                Bootcamp and Coding with the Crew
+            </p>
+        </div>
+        <nav>
             <ul>
                 <li>
-                    <a href="About-Me">About Me</a>
+                    <a href="#About-Me">About Me</a>
                 </li>
                 <li>
-                    <a href="My-Work">My Work</a>
+                    <a href="#My-Work">My Work</a>
                 </li>
                 <li>
-                    <a href="Contact-Me">Contact-Me</a>
+                    <a href="#Contact-Me">Contact-Me</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </header>
     <section>
-    <section class="About Me">
-        <h2> About Me</h2>
-        <p>
-            Veteran, Mother of three, Navy wife. Was military police, got medically retired in 2014. After that I worked security jobs, worked with children at a head start, and worked as a manager in a dayhab for mentally and physically diasabled adults. Have been a stay at home mom since 2019. I currently do marketing for a local pizzaria and am a den leader for cubscouts.
-        </p>
-    </section>
-    <div class="My-Work">
-        <aside class="projects">
-            <h3>Heather's projects</h3>
-            <p>Access Standard
+        <section id="About-Me">
+            <h2> About Me</h2>
+            <img class="military" src="images/humvee.jpg" width="100px" height="auto">
+            <p>
+                Veteran, Mother of three, Navy wife. Was military police, got medically retired in 2014. After that I
+                worked security jobs, worked with children at a head start, and worked as a manager in a dayhab for
+                mentally and physically diasabled adults. Have been a stay at home mom since 2019. I currently do
+                marketing for a local pizzaria and am a den leader for cubscouts.
             </p>
-        </aside>
-        <aside class="Quackin-Farms">
-            <h3>Heather's Projects</h3>
-            <p> Cj's Quackin Farms</p>
-        </aside>
-        <aside class="Skunks">
-            <h3>Pet Skunks</h3>
-            <p> Pet skunks are life!</p>
-        </aside>
-    </aside>
-    </div>
-    </section>
-      
+        </section>
+
+        <section id="My-Work" class="Projects">
+            <h2>
+                Heather's Projects
+            </h2>
+            <div class="Projects-Container">
+                <a class="Horiseon" href="https://heatherhannink.github.io/accessstandard/">
+                    <div class="label">Debug Project-Access Standards </div>
+                </a>
+
+                <div class="Quackin-Farms">
+                    <a class="Ducks">
+                        <div class="label">Quackin Farms</div>
+                    </a>
+                    <a class="Skunks">
+                        <div class="label">Pet Skunks are The New Trend</div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
 </body>
+
+
+<section id="Contact-Me">
+    <ul class="Contact">
+        <li> Contact Me!</li>
+        <li> 518-415-5460</li>
+        <li> heatherhannink@gmail.com</li>
+        <li><a href="https://github.com/heatherhannink">GITHUB</a></li>
+    </ul>
+</section>
+
 </html>
